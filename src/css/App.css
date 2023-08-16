@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: rgb(193, 132, 250);
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar{
+  padding:5px;
+  display:flex;
+  background-color: rgb(244, 89, 89);
+  column-gap: 10px;
+  height:40px;
+  font-size: 18px;
+  font-weight:600;
+  font-family:'Ubuntu','sans-serif'
+
+}
+.link{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  padding:5px;
+}
+.link:hover{
+  background-color:white;
+  color:black;
 }
